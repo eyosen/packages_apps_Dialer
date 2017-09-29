@@ -56,6 +56,8 @@
     <string name="fullscreen_caller_photo_summary">Display full-screen photo in incoming and outgoing calls</string>
     <string name="fullscreen_caller_photo_message">To use, you must restart the application</string>
 
+    <string name="other_settings_label">Other settings</string>
+
     <!-- Smart Options -->
     <string name="smart_category_title">Other options</string>
     <string name="smart_mute_title">Smart mute</string>
@@ -70,5 +72,9 @@
     <string name="prox_auto_speaker_delay_summary">Speakerphone will be activated in <xliff:g id="number">%d</xliff:g> ms</string>
     <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
     <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-    <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>    
+    <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+
+    <!-- Dialer postcall -->
+    <string name="enable_post_call_title">Post call snackbar</string>
+    <string name="enable_post_call_summary">Enable post call notifications at the bottom of screen</string>
 </resources>
