@@ -17,9 +17,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Smart Options -->
-    <string name="smart_category_title">Other options</string>
+    <string name="smart_category_title">Gestures</string>
     <string name="smart_mute_title">Smart mute</string>
-    <string name="smart_mute_summary">Mute the incoming call by flipping the device</string>
+    <string name="smart_mute_summary">Flip device to mute incoming call</string>
 
     <!-- Proximity speaker -->
     <string name="speaker_settings_label">Proximity speakerphone</string>
@@ -30,5 +30,5 @@
     <string name="prox_auto_speaker_delay_summary">Speakerphone will be activated in <xliff:g id="number">%d</xliff:g> ms</string>
     <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
     <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-    <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>    
+    <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
 </resources>
