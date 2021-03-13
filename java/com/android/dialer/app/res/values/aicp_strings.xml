@@ -56,7 +56,9 @@
     <string name="fullscreen_caller_photo_summary">Display full-screen photo in incoming and outgoing calls</string>
     <string name="fullscreen_caller_photo_message">To use, you must restart the application</string>
 
+    <!-- Preference titles -->
     <string name="other_settings_label">Other settings</string>
+    <string name="action_menu_helplines">Helplines</string>
 
     <!-- Smart Options -->
     <string name="smart_category_title">Other options</string>
