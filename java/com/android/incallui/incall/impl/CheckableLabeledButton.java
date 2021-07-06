@@ -121,7 +121,7 @@ public class CheckableLabeledButton extends LinearLayout implements Checkable {
     if (isDarkM){
       labelView.setTextColor(Color.WHITE);
     } else{
-      labelView.setTextColor(Color.BLACK);
+      labelView.setTextColor(Color.WHITE);
     }
     labelView.setMaxEms(9);
     labelView.setEllipsize(TruncateAt.END);
