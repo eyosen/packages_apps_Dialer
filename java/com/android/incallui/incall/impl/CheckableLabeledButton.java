@@ -129,8 +129,7 @@ public class CheckableLabeledButton extends LinearLayout implements Checkable {
     labelView.setLayoutParams(labelParams);
     labelView.setTextAppearance(R.style.Dialer_Incall_TextAppearance_Label);
     labelView.setText(labelText);
-    labelView.setSingleLine(false);
-    labelView.setMaxLines(2);
+    labelView.setSingleLine();
     if (isDarkM){
       labelView.setTextColor(Color.WHITE);
     } else{
@@ -161,12 +160,12 @@ public class CheckableLabeledButton extends LinearLayout implements Checkable {
           new ColorStateList(
               new int[][] {new int[] {android.R.attr.state_checked}, new int[] {}},
               new int[] {color, Color.WHITE}));
-    } 
+    }
     else{
       iconView.setImageTintList(
           new ColorStateList(
               new int[][] {new int[] {android.R.attr.state_checked}, new int[] {}},
-              new int[] {color, Color.BLACK}));      
+              new int[] {color, Color.BLACK}));
     }
   }
 
